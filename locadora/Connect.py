@@ -11,7 +11,7 @@ cur = con.cursor()
 conDW = cx_Oracle.connect('DW_LOCADORA','123', dsn_tns)
 curDW = conDW.cursor()
 
-#Teste pro git
+#Teste pro git AA
 tl.gravadora(cur, curDW)
 tl.socio(cur, curDW)
 
