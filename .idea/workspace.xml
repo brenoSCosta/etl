@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e307cfe-b6b1-4405-912d-d1003d096f59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locadora/Connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/locadora/Connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locadora/EtlLocadora.py" beforeDir="false" afterPath="$PROJECT_DIR$/locadora/EtlLocadora.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +27,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
@@ -80,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568425382141</updated>
-      <workItem from="1568425383269" duration="1585000" />
+      <workItem from="1568425383269" duration="4771000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1568426932977</created>
@@ -89,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568426932977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start">
+      <created>1568427034158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568427034158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +126,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Start" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/etl$Connect.coverage" NAME="Connect Coverage Results" MODIFIED="1568426242539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locadora" />
+    <SUITE FILE_PATH="coverage/etl$Connect.coverage" NAME="Connect Coverage Results" MODIFIED="1568434543824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locadora" />
   </component>
 </project>
