@@ -58,3 +58,18 @@ def artista(cur, curDW):
             break
     if checker == None:
         print("Dados ETL realizados com sucesso. DM_ARTISTA")
+
+def titulo (cur, curDW):
+    checker = None
+    cur.execute("SELECT * FROM TITULOS")
+    for result in cur:
+        statement = 'INSERT INTO DM_TITULO(ID_TITULO,TPO_TITULO,CLA_TITULO,DSC_TITULO)  ' \
+                    'VALUES(:0, :1, :2, :3)'
+        try:
+            curDW.execute(statement, (result[0],result[1],result[2],result[7]))
+        except cx_Oracle.IntegrityError:
+            print("Erro!! Cadastros já existentes na DM_TITULO")
+            checker = True
+            break
+    if checker == None:
+        print("Dados ETL realizados com sucesso. DM_TITULO")

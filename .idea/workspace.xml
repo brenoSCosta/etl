@@ -88,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568425382141</updated>
-      <workItem from="1568425383269" duration="4771000" />
+      <workItem from="1568425383269" duration="6296000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1568426932977</created>
@@ -104,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568427034158</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Breno">
+      <created>1568434566978</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568434566979</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Breno">
+      <created>1568434638930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568434638930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,9 +137,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="Breno" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breno" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/etl$Connect.coverage" NAME="Connect Coverage Results" MODIFIED="1568434604920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locadora" />
+    <SUITE FILE_PATH="coverage/etl$Connect.coverage" NAME="Connect Coverage Results" MODIFIED="1568436048732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/locadora" />
   </component>
 </project>

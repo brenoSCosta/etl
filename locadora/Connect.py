@@ -15,6 +15,7 @@ curDW = conDW.cursor()
 tl.gravadora(cur, curDW)
 tl.socio(cur, curDW)
 tl.artista(cur,curDW)
+tl.titulo(cur,curDW)
 
 conDW.commit()
 curDW.close()
