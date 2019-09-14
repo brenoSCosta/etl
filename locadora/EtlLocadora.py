@@ -73,3 +73,9 @@ def titulo (cur, curDW):
             break
     if checker == None:
         print("Dados ETL realizados com sucesso. DM_TITULO")
+
+def locaTempo(cur, curDW):
+    checker = None
+    cur.execute("SELECT * FROM ITENS_LOCACOES")
+    for result in cur:
+        print(result)
